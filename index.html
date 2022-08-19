@@ -14,17 +14,17 @@
       margin-top: 30px;
       font-size: 50px;
       font-weight: 700;
-      color: #088596;
+      color: #086199;
     }
     .products-container {
       display: flex;
-      width: 40%;
+      max-width: 1024px;
       margin: 30px auto;
       justify-content: space-evenly;
     }
     .product, .product a {
       font-size: 40px;
-      color: #095662;
+      color: #086199;
       text-decoration: underline;
     }
     .product.soon {
@@ -35,6 +35,19 @@
       font-size: 20px;
       position: absolute;
       top: -5px;
+    }
+    .half-section {
+      flex: 1;
+      text-align: left;
+    }
+    .spacer {
+      width: 24px;
+    }
+    .screen {
+      max-width: 500px;
+    }
+    .center, h2,h3 {
+      text-align: center;
     }
   </style>
   <link
@@ -56,8 +69,46 @@
   <img src="images/oktopad-fon.svg" alt="" class="logo-svg"/><br/>
   <div class="logo-text">Oktopad</div>
   <div class="products-container">
-    <div class="product"><a href="https://github.com/romannep/oktopadcrm/releases">CRM</a> </div>
-    <div class="product soon">Upshot<span class="soon-label">скоро</span></div>
+    <div class="half-section">
+      <h2>Organizer</h2>
+      <h3>Made for man. Wisely.</h3>
+      <div class="center  ">
+        <img class="screen" src="images/screen-en.png">
+      </div>
+      <p>
+        &nbsp;
+      </p>
+      <ul>
+        <li>Reminders with repeat</li>
+        <li>View calendar events</li>
+      </ul>
+      <a href="http://google.com">Download v1.0.1</a>
+      <h4>Privacy policy</h4>
+      <p>
+        Oktopad application use Google authentication to access your calendar to get and show events from it to you.
+        Oktopad application neither store internaly no send somewhere any information from you Google account, including data from Calendar.
+      </p>
+    </div>
+    <div class="spacer">&nbsp;</div>
+    <div class="half-section">
+      <h2>Органайзер</h2>
+      <h3>Сделан для людей. С умом.</h3>
+      <div class="center">
+        <img class="screen" src="images/screen-ru.png">
+      </div>
+      <p>
+        &nbsp;
+      </p>
+      <ul>
+        <li>Напоминания с возможностью повтора</li>
+        <li>Просмотр событий календаря</li>
+      </ul>
+      <a href="http://google.com">Скачать v1.0.1</a>
+      <h4>Политика конфиденциальности</h4>
+      <p>
+        Приложение Oktopad использует аутентификацию Google для доступа к вашему календарю, чтобы получать и показывать вам события из него.
+        Приложение Oktopad не хранит внутри себя и не отправляет куда-либо информацию из вашей учетной записи Google, в том числе данные из Календаря.      </p>
+    </div>
   </div>
 </div>
 </body>
