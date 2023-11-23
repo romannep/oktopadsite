@@ -1,0 +1,12 @@
+{
+  "app-a": {
+    "entities": ["Task","Person"],
+    "Task": ["Name", "Description"],
+    "Person": ["First_Name", "Last_Name"]
+  },
+  "app-b": {
+    "entities": ["Vehicle","Driver"],
+    "Vehicle": ["Make","Model"],
+    "Driver": ["Full_Name","Experience"]
+  }
+}
