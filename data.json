@@ -2,11 +2,11 @@
   "app-a": {
     "entities": ["Task","Person"],
     "Task": ["Name", "Description"],
-    "Person": ["First_Name", "Last_Name"]
+    "Person": ["First Name", "Last Name"]
   },
   "app-b": {
     "entities": ["Vehicle","Driver"],
     "Vehicle": ["Make","Model"],
-    "Driver": ["Full_Name","Experience"]
+    "Driver": ["Full Name","Experience"]
   }
 }
