@@ -1,0 +1,24 @@
+{
+  "app-a": {
+    "entities": ["Task","Person"],
+    "Task": {
+      "fields": ["Name", "Description"],
+      "output": ["Urgent", "Num"]
+    },
+    "Person": {
+      "fields": ["First_Name", "Last_Name"],
+      "output": ["Relatives", "SecurityCheck"]
+    }
+  },
+  "app-b": {
+    "entities": ["Vehicle","Driver"],
+    "Vehicle": {
+      "fields": ["Make","Model"],
+      "output": ["Year", "IsSafe"]
+    },
+    "Driver": { 
+      "fields": ["Full_Name","Experience"],
+      "output": ["SecurityCheck", "Age"]
+    }
+  }
+}
